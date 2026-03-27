@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/an-yu.github.io/repositories/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/an-yu.github.io/teaching/";
-          },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
