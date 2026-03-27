@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: assets/img/anyu57635309-8bf0-4890-a4ee-6e04a859d337.png
+  image: anyu57635309-8bf0-4890-a4ee-6e04a859d337.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 PhD student</p>
