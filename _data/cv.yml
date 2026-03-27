@@ -25,7 +25,7 @@ cv:
         url: https://www.washington.edu/
         area: Mathematics
         studyType: Bachelor
-        start_date: 2015
+        end_date: 2017
     
         # highlights:
         #   - Description 1.
@@ -71,6 +71,7 @@ cv:
       - title: "SMART: Shot-Aware Multimodal Video Moment Retrieval with Audio-Enhanced MLLM"
         authors:
           - An Yu, Weiheng Lu, Jian Li, Zhenfei Zhang, Yunhang Shen, Felix X.-F. Ye and Ming-Ching Chang.
+        publisher: arxiv preprint
         releaseDate: 2025
         url: https://arxiv.org/pdf/2511.14143
         summary: SMART is a novel framework for multimodal video moment retrieval that incorporates shot-aware temporal modeling and audio-enhanced multimodal large language models.
@@ -79,6 +80,7 @@ cv:
       - title: "LLaVA-MR: Large Language-and-Vision Assistant for Video Moment Retrieval"
         authors:
           - Weiheng Lu, Jian Li, An Yu, Ming-Ching Chang, Shengpeng Ji and Min Xia
+        publisher: arxiv preprint
         releaseDate: 2024
         url: https://arxiv.org/pdf/2411.14505
         summary: LLaVA-MR is a large language-and-vision assistant designed for video moment retrieval, leveraging multimodal large language models to enhance temporal understanding and cross-modal alignment for improved retrieval performance.
@@ -86,6 +88,7 @@ cv:
       - title: "FlashSinkhorn: IO-Aware Entropic Optimal Transport"
         authors:
           - Felix X.-F. Ye, Xingjie Li, An Yu, Ming-Ching Chang, Linsong Chu and Davis Wertheimer
+        publisher: arxiv preprint
         releaseDate: 2026
         url: https://arxiv.org/pdf/2602.03067
         summary: FlashSinkhorn is an IO-aware entropic optimal transport algorithm that significantly reduces memory usage and computational time, enabling efficient processing of large-scale data in various applications.
@@ -93,8 +96,7 @@ cv:
       - title: "Integrating manual preprocessing with automated feature extraction for improved rodent seizure classification"
         authors:
           - An Yu, Mannut Singh, Abhineet Pandey, Elizabeth Dybas, Aditya Agarwal, Yifan Kao, Guangliang Zhao, Tzu-Jen Kao, Xin Li, Damian S Shin and Ming-Ching Chang
-        publisher: Academic Press
-        journal: Epilepsy & Behavior
+        publisher: Epilepsy & Behavior
         releaseDate: 2025
         url: https://www.sciencedirect.com/science/article/abs/pii/S1525505025000459
         summary: This study presents a novel approach to rodent seizure classification by integrating manual preprocessing techniques with automated feature extraction methods, resulting in improved accuracy and efficiency in seizure detection and analysis.
@@ -102,8 +104,7 @@ cv:
       - title: "Dual-Phase Msqnet for Species-Specific Animal Activity Recognition"
         authors:
           - An Yu, Jeremy Varghese, Ferhat Demirkiran, Peter Buonaiuto, Xin Li and Ming-Ching Chang
-        publisher: IEEE
-        conference: 2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)
+        publisher: 2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)
         releaseDate: 2024
         url: https://arxiv.org/pdf/2407.03228
         summary: This paper introduces Dual-Phase Msqnet, a novel approach for species-specific animal activity recognition that combines multi-scale feature extraction with a dual-phase training strategy, achieving state-of-the-art performance on benchmark datasets.
@@ -111,6 +112,7 @@ cv:
       - title: "ReDiPrune: Relevance-Diversity Pre-Projection Token Pruning for Efficient Multimodal LLMs"
         authors:
           - An Yu, Ting Yu Tsai, Zhenfei Zhang, Weiheng Lu, Felix X.-F. Ye and Ming-Ching Chang
+        publisher: arxiv preprint
         releaseDate: 2026
         url: https://arxiv.org/pdf/2603.24680
         summary: ReDiPrune is a novel token pruning method for efficient multimodal large language models that combines relevance and diversity criteria to effectively reduce the number of tokens while maintaining model performance, enabling faster inference and reduced computational costs.
