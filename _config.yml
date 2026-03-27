@@ -26,14 +26,6 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 # Socials
 # -----------------------------------------------------------------------------
-
-# github: https://github.com/CrazyGeG
-# google_scholar:  https://scholar.google.com/citations?user=try-RpMAAAAJ&hl=en
-# LinkedIn: https://www.linkedin.com/in/an-yu-487a91121/
-
-github_username: CrazyGeG
-# google_scholar: try-RpMAAAAJ
-linkedin: an-yu-487a91121
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -49,9 +41,9 @@ repo_trophies:
 # External service URLs for repository page
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
-external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+# external_services:
+#   github_readme_stats_url: https://github-readme-stats.vercel.app
+#   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -64,11 +56,11 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+footer_fixed: false #true
+search_enabled: false #true
+socials_in_search: false #true
+posts_in_search: false #true
+bib_search: false #true
 
 # Dimensions
 max_width: 930px
