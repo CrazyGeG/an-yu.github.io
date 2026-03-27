@@ -2,25 +2,16 @@ cv:
   name: An Yu
   email: ayu@albany.edu
   location: Albany, NY
-  work_authorization: No sponsorship required; permanent resident; green card holder
-  image:
-  summary: I am a Ph.D. student in Computer Science specializing in computer vision, multimodal LLMs for video analysis.
-  # social_networks:
-  #   - network: X
-  #     username: AlbertEinstein
-  #   - network: GitHub
-  #     username: example
-  #   - network: LinkedIn
-  #     username: example
-
-  # address:
-  #   street: 2712 Broadway St
-  #   city: San Francisco
-  #   region: California
-  #   postalCode: CA 94115
-  #   countryCode: US
+  headline: Ph.D. student in Computer Science specializing in computer vision and multimodal LLMs for video analysis.
 
   sections:
+    Professional Summary:
+      - summary: I am a Ph.D. student in Computer Science specializing in computer vision and multimodal LLMs for video analysis.
+
+    Additional Information:
+      - label: Work Authorization
+        details: No sponsorship required; permanent resident; green card holder
+    
     Education:
       - institution: University at Albany - SUNY
         location: USA, New York
