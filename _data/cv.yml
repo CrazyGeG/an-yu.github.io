@@ -1,189 +1,231 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: An Yu
+  email: ayu@albany.edu
+  location: Albany, NY
+  work_authorization: No sponsorship required; permanent resident; green card holder
+  image:
+  summary: I am a Ph.D. student in Computer Science specializing in computer vision, multimodal LLMs for video analysis.
+  # social_networks:
+  #   - network: X
+  #     username: AlbertEinstein
+  #   - network: GitHub
+  #     username: example
+  #   - network: LinkedIn
+  #     username: example
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University at Albany - SUNY
+        location: USA, New York
+        url: https://www.albany.edu/
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2023
+        # end_date:
         score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        # courses: "Theory of Relativity"
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Washington, Seattle
+        location: USA, Washington
+        url: https://www.washington.edu/
+        area: Mathematics
+        studyType: Bachelor
+        start_date: 2015
+    
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
+
+      
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Regeneron, Process Science Lab
+        position: Data Scientist Intern
+        location: USA, New York
+        start_date: 2025-05
+        end_date: 2025-08
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Regeneron, Process Science Lab
+        position: Data Scientist Intern
+        location: USA, New York
+        start_date: 2024-05
+        end_date: 2024-12
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
+      - company: Office of Mental Health, New York State Office
+        position: Research Scientist Intern
+        location: USA, New York
+        start_date: 2023-04
+        end_date: 2023-08
+        
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "FAVE: A Structured Benchmark for Fine-Grained Audio-Visual Temporal Evaluation in Multimodal LLMs"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Weiheng Lu, An Yu, Jian Li, Zhenfei Zhang, Felix X.-F. Ye and Ming-Ching Chang
+        publisher: CVPR 2026
+        summary: FAVE is a benchmark for evaluating fine-grained temporal understanding in audio-visual large language models, revealing significant gaps in cross-modal alignment, temporal reasoning, and timestamp localization.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "IntelliCardiac: An Intelligent Platform for Cardiac Image Segmentation and Classification"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Ting Yu Tsai, An Yu, Meghana Spurthi Maadugundu, Ishrat Jahan Mohima, Umme Habiba Barsha, Mei-Hwa F. Chen, Balakrishnan Prabhakaran, and Ming-Ching Chang
+        publisher: In 2025 IEEE 8th International Conference on Multimedia Information Processing and Retrieval (MIPR)
+        releaseDate: 2025-05-05
+        url: https://doi.org/10.1109/MIPR67560.2025.00026
+        summary: A web-based AI platform for 4D cardiac image analysis that integrates automatic heart-structure segmentation with a two-stage disease classification pipeline, enabling real-time visualization and accurate diagnosis across five cardiac conditions.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "SMART: Shot-Aware Multimodal Video Moment Retrieval with Audio-Enhanced MLLM"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - An Yu, Weiheng Lu, Jian Li, Zhenfei Zhang, Yunhang Shen, Felix X.-F. Ye and Ming-Ching Chang.
+        url: https://arxiv.org/pdf/2511.14143
+        summary: SMART is a novel framework for multimodal video moment retrieval that incorporates shot-aware temporal modeling and audio-enhanced multimodal large language models.
+      
+    
+      - title: "LLaVA-MR: Large Language-and-Vision Assistant for Video Moment Retrieval"
+        authors:
+          - Weiheng Lu, Jian Li, An Yu, Ming-Ching Chang, Shengpeng Ji and Min Xia
+        url: https://arxiv.org/pdf/2411.14505
+        summary: LLaVA-MR is a large language-and-vision assistant designed for video moment retrieval, leveraging multimodal large language models to enhance temporal understanding and cross-modal alignment for improved retrieval performance.
+      
+      - title: "FlashSinkhorn: IO-Aware Entropic Optimal Transport"
+        authors:
+          - Felix X.-F. Ye, Xingjie Li, An Yu, Ming-Ching Chang, Linsong Chu and Davis Wertheimer
+        url: https://arxiv.org/pdf/2602.03067
+        summary: FlashSinkhorn is an IO-aware entropic optimal transport algorithm that significantly reduces memory usage and computational time, enabling efficient processing of large-scale data in various applications.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Integrating manual preprocessing with automated feature extraction for improved rodent seizure classification"
+        authors:
+          - An Yu, Mannut Singh, Abhineet Pandey, Elizabeth Dybas, Aditya Agarwal, Yifan Kao, Guangliang Zhao, Tzu-Jen Kao, Xin Li, Damian S Shin and Ming-Ching Chang
+        publisher: Academic Press
+        journal: Epilepsy & Behavior
+        url: https://www.sciencedirect.com/science/article/abs/pii/S1525505025000459
+        summary: This study presents a novel approach to rodent seizure classification by integrating manual preprocessing techniques with automated feature extraction methods, resulting in improved accuracy and efficiency in seizure detection and analysis.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: "Dual-Phase Msqnet for Species-Specific Animal Activity Recognition"
+        authors:
+          - An Yu, Jeremy Varghese, Ferhat Demirkiran, Peter Buonaiuto, Xin Li and Ming-Ching Chang
+        publisher: IEEE
+        conference: 2024 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)
+        summary: This paper introduces Dual-Phase Msqnet, a novel approach for species-specific animal activity recognition that combines multi-scale feature extraction with a dual-phase training strategy, achieving state-of-the-art performance on benchmark datasets.
+      
+      - title: "ReDiPrune: Relevance-Diversity Pre-Projection Token Pruning for Efficient Multimodal LLMs"
+        authors:
+          - An Yu, Ting Yu Tsai, Zhenfei Zhang, Weiheng Lu, Felix X.-F. Ye and Ming-Ching Chang
+        url: https://arxiv.org/pdf/2603.24680
+        summary: ReDiPrune is a novel token pruning method for efficient multimodal large language models that combines relevance and diversity criteria to effectively reduce the number of tokens while maintaining model performance, enabling faster inference and reduced computational costs.
+      
+    # Awards:
+    #   - title: Artificial Intelligence and Robotics Creative Design Competition
+    #     date: 2018
+    #     awarder: AI and Robotics Creative Design Competition
+    #     summary: Third Prize
 
-      - name: English
-        summary: "Fluent"
+    #   - title: Creative Dredging Engineering & Monitoring Technology Competition
+    #     date: 2018
+    #     awarder: Creative Dredging Engineering & Monitoring Technology Competition
+    #     summary: Honorable Mention
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    #   - title: National Creativity Competition of Electronic Design (14th)
+    #     date: 2018
+    #     awarder: National Creativity Competition of Electronic Design
+    #     summary: Honorable Mention
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    #   - title: Creative Software Application Content Award
+    #     date: 2018
+    #     awarder: Creative Software Application Competition
+    #     summary: Honorable Mention
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #   - title: Taipei Medical University Venture Capital Investment Contest
+    #     date: 2017
+    #     awarder: Taipei Medical University
+    #     summary: First Prize and Best Popularity Award
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #   - title: International Conference on Medical and Health Informatics
+    #     date: 2017
+    #     awarder: "Incidence and Clinical Features of Multiple Primary Malignant Neoplasms: A 5-Year Retrospective Analysis"
+    #     summary: First Prize
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    #   - title: Korea International Women's Invention Exposition (KIWIE)
+    #     date: 2013
+    #     awarder: KIWIE
+    #     summary: Gold Prize
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - title: Korea International Women's Invention Exposition (KIWIE)
+    #     date: 2011
+    #     awarder: KIWIE
+    #     summary: German Special Prize
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - title: Nobel Prize in Physics
+    #     authors:
+    #       - "Royal Swedish Academy of Sciences"
+    #     date: 1921-11-01
+    #     awarder: Royal Swedish Academy of Sciences
+    #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+      # - title: Max Planck Medal
+      #   authors:
+      #     - "German Physical Society"
+      #   date: 2029
+      #   awarder: German Physical Society
+      #   summary: Awarded for outstanding scientific achievement
+
+    # Skills:
+      # - name: Physics
+        # level: Master
+        # icon: fa-solid fa-hashtag
+        # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    # Languages:
+    #   - name: Chinese
+    #     # summary: "Fluent"
+
+    #   - name: English
+    #     # summary: "Native speaker"
+
+    # Interests:
+    #   - name: Computer Science
+    #     icon: fa-solid fa-tag
+    #     keywords: "Machine Learning, Computer Vision, Image Process, Deep Learning, System Development, MLLM"
+
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
+
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
+
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
+
+    # Projects:
+    #   - name: Automatic Head and Neck CT image Organ Circle Selection System
+    #     summary: Automatic Head and Neck CT image Organ Circle Selection System
+    #     highlights:
+    #       - The system reduces the selection time by 70%.
+    #       - In order to reduce the burden of radiologists after the circle selection, I developed this system, this system can automatically circle and distinguish whether the organ is pathological change or the dose in the future.
+    #     start_date: 2018-07-01
+    #     end_date: 2018-08-01
+
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
