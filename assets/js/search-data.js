@@ -35,16 +35,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/an-yu.github.io/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-m-excited-to-share-that-our-paper-fave-a-structured-benchmark-for-fine-grained-audio-visual-temporal-evaluation-in-multimodal-llms-has-been-accepted-to-cvpr-2026",
+          title: 'I’m excited to share that our Paper “FAVE: A Structured Benchmark for Fine-Grained...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/an-yu.github.io/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-m-excited-to-share-that-our-paper-llava-mr-larg-language-and-vision-assistant-for-video-moment-retrieval-has-been-accepted-to-icpr-2026",
+          title: 'I’m excited to share that our Paper “Llava-mr: Larg language-and-vision assistant for video...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
