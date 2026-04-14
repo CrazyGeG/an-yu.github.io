@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-04-14
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I'm excited to share that our Paper "FAVE: A Structured Benchmark for Fine-Grained Audio-Visual Temporal Evaluation in Multimodal LLMs" has been accepted to CVPR 2026!
