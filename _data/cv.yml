@@ -13,12 +13,17 @@ cv:
         area: Computer Science
         studyType: PhD
         start_date: 2023
-        # end_date:
+        end_date: 2026
         score: ""
-        # courses: "Theory of Relativity"
-        # highlights:
-        #   - Description 1.
-        #   - Description 2.
+        highlights:
+          - "Research Area: Multimodal Large Language Models"
+
+      - institution: University at Albany - SUNY
+        location: USA, New York
+        url: https://www.albany.edu/
+        area: Data Science
+        studyType: Master
+        end_date: 2023
 
       - institution: University of Washington, Seattle
         location: USA, Washington
@@ -26,12 +31,10 @@ cv:
         area: Mathematics
         studyType: Bachelor
         end_date: 2017
-    
+
         # highlights:
         #   - Description 1.
         #   - Description 2.
-
-      
 
     Experience:
       - company: CVS Health, Rx Personalization Team
@@ -39,28 +42,47 @@ cv:
         location: USA, Connecticut
         start_date: 2026-05
         end_date: 2026-08
+        highlights:
+          - "Built and operationalized machine learning workflows for CVS's Rx Personalization Team, including model training, registration, deployment, and pipeline orchestration on Databricks and Google Cloud Platform (GCP); supported the migration of production models from Databricks to GCP."
+          - "Designed and developed reusable skills, hooks, and an AI-agent memory stack, enabling teams to build more efficient and consistent Claude-powered workflows."
 
       - company: Regeneron, Process Science Lab
         position: Data Scientist Intern
         location: USA, New York
         start_date: 2025-05
         end_date: 2025-08
+        highlights:
+          - "Developed and deployed computer-vision pipelines leveraging Vision-Language Model (VLM) architectures to analyze high-resolution cellular imagery and extract quantitative morphological and contextual features."
+          - "Designed automated inference and post-processing workflows integrating image embeddings with structured laboratory data, improving throughput and reproducibility."
+          - "Reduced expert review time from several hours to minutes by replacing manual visual inspection with scalable, model-driven analysis tools."
 
       - company: Regeneron, Process Science Lab
         position: Data Scientist Intern
         location: USA, New York
         start_date: 2024-05
         end_date: 2024-12
+        highlights:
+          - "Created visual representations of the metabolic network using Python libraries such as matplotlib, Escher and Cobrapy."
+          - "Implemented dimension reduction techniques such as SVD, PCA, and UMAP on the stoichiometric matrix, and utilized Truncated SVD for reconstructing metabolic networks in iCHOv1, iCHO2991, iCHO2441 and all other existing 8 CHO models."
+          - "Examined the streamlined model with the goal of boosting PS Labs' capacity for better process comprehension for fostering alignment."
 
       - company: Office of Mental Health, New York State Office
         position: Research Scientist Intern
         location: USA, New York
         start_date: 2023-04
         end_date: 2023-08
+        highlights:
+          - "Conducted comprehensive data retrieval for mental health patient records from the database employing SQL, ensuring accurate and efficient data extraction for analysis."
+          - "Engaged in advanced data pre-processing and feature selection techniques, leveraging Mutual Information and Chi-Square tests to identify the most relevant predictors for mental health assessments."
+          - "Led the creation and deployment of a high-accuracy (95%) predictive model utilizing XGBoost, designed to pinpoint individuals at an increased risk of mental health problems, thereby bolstering the office's ability to proactively intervene."
     Awards:
-      -   date: 2026
-          awarder: John J. Sullivan Award from the College of Nanotechnology, Science, and Engineering, University at Albany - SUNY
-        
+      - date: 2026
+        awarder: John J. Sullivan Award from the College of Nanotechnology, Science, and Engineering, University at Albany - SUNY
+
+    Professional Activities:
+      - label: Reviewer
+        details: IJCV, ICIP, AICity, CVPR, AAAI, ECCV, NeurIPS, IEEE TMM
+
     # Publications:
     #   - title: "FAVE: A Structured Benchmark for Fine-Grained Audio-Visual Temporal Evaluation in Multimodal LLMs"
     #     authors:
@@ -84,8 +106,7 @@ cv:
     #     releaseDate: 2025
     #     url: https://arxiv.org/pdf/2511.14143
     #     summary: SMART is a novel framework for multimodal video moment retrieval that incorporates shot-aware temporal modeling and audio-enhanced multimodal large language models.
-      
-    
+
     #   - title: "LLaVA-MR: Large Language-and-Vision Assistant for Video Moment Retrieval"
     #     authors:
     #       - Weiheng Lu, Jian Li, An Yu, Ming-Ching Chang, Shengpeng Ji and Min Xia
@@ -93,7 +114,7 @@ cv:
     #     releaseDate: 2024
     #     url: https://arxiv.org/pdf/2411.14505
     #     summary: LLaVA-MR is a large language-and-vision assistant designed for video moment retrieval, leveraging multimodal large language models to enhance temporal understanding and cross-modal alignment for improved retrieval performance.
-      
+
     #   - title: "FlashSinkhorn: IO-Aware Entropic Optimal Transport"
     #     authors:
     #       - Felix X.-F. Ye, Xingjie Li, An Yu, Ming-Ching Chang, Linsong Chu and Davis Wertheimer
@@ -117,7 +138,7 @@ cv:
     #     releaseDate: 2024
     #     url: https://arxiv.org/pdf/2407.03228
     #     summary: This paper introduces Dual-Phase Msqnet, a novel approach for species-specific animal activity recognition that combines multi-scale feature extraction with a dual-phase training strategy, achieving state-of-the-art performance on benchmark datasets.
-      
+
     #   - title: "ReDiPrune: Relevance-Diversity Pre-Projection Token Pruning for Efficient Multimodal LLMs"
     #     authors:
     #       - An Yu, Ting Yu Tsai, Zhenfei Zhang, Weiheng Lu, Felix X.-F. Ye and Ming-Ching Chang
@@ -125,7 +146,7 @@ cv:
     #     releaseDate: 2026
     #     url: https://arxiv.org/pdf/2603.24680
     #     summary: ReDiPrune is a novel token pruning method for efficient multimodal large language models that combines relevance and diversity criteria to effectively reduce the number of tokens while maintaining model performance, enabling faster inference and reduced computational costs.
-      
+
     # Awards:
     #   - title: Artificial Intelligence and Robotics Creative Design Competition
     #     date: 2018
@@ -175,18 +196,18 @@ cv:
     #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
     #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      # - title: Max Planck Medal
-      #   authors:
-      #     - "German Physical Society"
-      #   date: 2029
-      #   awarder: German Physical Society
-      #   summary: Awarded for outstanding scientific achievement
+    # - title: Max Planck Medal
+    #   authors:
+    #     - "German Physical Society"
+    #   date: 2029
+    #   awarder: German Physical Society
+    #   summary: Awarded for outstanding scientific achievement
 
     # Skills:
-      # - name: Physics
-        # level: Master
-        # icon: fa-solid fa-hashtag
-        # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # - name: Physics
+    # level: Master
+    # icon: fa-solid fa-hashtag
+    # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     # Languages:
     #   - name: Chinese
