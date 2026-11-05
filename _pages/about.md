@@ -24,6 +24,6 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 10 # leave blank to include all the blog posts
 ---
-I am a Ph.D. student in [Computer Science](https://www.albany.edu/computer-science)  at the [University at Albany, SUNY](https://www.albany.edu/), working in the [Computer Vision and Machine Learning (CVML) Laboratory](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab) under the supervision of [Prof. Ming-Ching Chang](https://www.albany.edu/computer-science/faculty/ming-ching-chang). 
+I am a Ph.D. Candidate in [Computer Science](https://www.albany.edu/computer-science)  at the [University at Albany, SUNY](https://www.albany.edu/), working in the [Computer Vision and Machine Learning (CVML) Laboratory](https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab) under the supervision of [Prof. Ming-Ching Chang](https://www.albany.edu/computer-science/faculty/ming-ching-chang). 
 
-I work on multimodal AI, focusing on video understanding, temporal reasoning, and multimodal large language models. My research spans model development, efficiency, and benchmarking, with applications in both general video understanding and biomedical analysis.
+My research focuses on multimodal AI, with an emphasis on video understanding, temporal reasoning, and multimodal large language models. I develop efficient and effective methods for multimodal representation learning, temporal grounding, and cross-modal alignment, alongside benchmarks for fine-grained audio-visual understanding. My work also explores computational efficiency and optimal transport, with applications spanning general video understanding and biomedical imaging.
